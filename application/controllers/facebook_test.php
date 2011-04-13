@@ -46,7 +46,7 @@
 				// From now on, when we call login() or login_url(), the auth
 				// will redirect back to this url.
 
-				$this->facebook->set_callback(site_url('facebook_test'));
+				$this->facebook->set_callback('http://apps.facebook.com/samsongtest/');
 
 				// Header redirection to auth.
 

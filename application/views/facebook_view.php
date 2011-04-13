@@ -56,7 +56,7 @@
 		<?php else:?>
 			<img class="avatar" src="<?php echo facebook_picture('me')?>" />
 			<?php $user = $this->facebook->user();?>
-			<h2><?php echo $user->name?> ( <a href="<?php echo site_url('facebook_test/logout')?>">Logout</a> )</h2>
+			<h2><?php echo $user->name?> ( <a href="http://apps.facebook.com/samsongtest/logout">Logout</a> )</h2>
 			<fb:like></fb:like>
 			<?php $result = $this->facebook->call('get', 'me', array('metadata' => 1));?>
 			<pre>
